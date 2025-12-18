@@ -4,7 +4,7 @@ import axios from 'axios';
 import ApplicationForm from './ApplicationForm';
 import './PetDetail.css';
 
-const API_BASE_URL = 'https://petora-back-end.vercel.app/';
+const API_BASE_URL = 'https://petora-back-end.vercel.app';
 
 const PetDetail = () => {
   const { id } = useParams();

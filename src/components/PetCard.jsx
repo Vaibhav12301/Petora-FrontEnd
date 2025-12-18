@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './PetCard.css';
 
-const API_BASE_URL = 'https://petora-back-end.vercel.app/';
+const API_BASE_URL = 'https://petora-back-end.vercel.app';
 
 const PetCard = ({ pet }) => {
     if (!pet) {

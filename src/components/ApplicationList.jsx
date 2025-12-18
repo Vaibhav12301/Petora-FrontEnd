@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import ApplicationDetailModal from './ApplicationDetailModal'; 
 
-const API_BASE_URL = 'https://petora-back-end.vercel.app/';
+const API_BASE_URL = 'https://petora-back-end.vercel.app';
 
 const ApplicationList = () => {
     const [applications, setApplications] = useState([]);

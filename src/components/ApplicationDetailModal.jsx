@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './ApplicationDetailModal.css';
 
-const API_BASE_URL = 'https://petora-back-end.vercel.app/';
+const API_BASE_URL = 'https://petora-back-end.vercel.app';
 
 const ApplicationDetailModal = ({ application, onClose, onActionSuccess }) => {
     const [feedback, setFeedback] = useState(null);

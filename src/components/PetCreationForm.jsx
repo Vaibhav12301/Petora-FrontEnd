@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './PetCreationForm.css'; 
 
-const API_BASE_URL = 'https://petora-back-end.vercel.app/'; 
+const API_BASE_URL = 'https://petora-back-end.vercel.app'; 
 
 const PetCreationForm = () => {
     const [formData, setFormData] = useState({

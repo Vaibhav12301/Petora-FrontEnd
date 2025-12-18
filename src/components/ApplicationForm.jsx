@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './ApplicationForm.css';
 
-const API_BASE_URL = 'https://petora-back-end.vercel.app/';
+const API_BASE_URL = 'https://petora-back-end.vercel.app';
 
 const ApplicationForm = ({ petId, petName }) => {
     const [formData, setFormData] = useState({
